@@ -1,0 +1,9 @@
+{
+  "validContact": {
+    "name": "AlZahraa",
+    "email": "fake_email@gmail.com",
+    "subject": " Test Message",
+    "message": "I Like Your Products",
+    "uploadFile": "src/test/resources/testdata/ContactUsFileUpload.txt"
+  }
+}

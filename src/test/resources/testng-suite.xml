@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  testng-suite.xml — Master TestNG suite for AutomationExercise Final Project
+  Covers all 26 test cases across 7 test classes.
+  Run with: mvn clean test
+  Generate Allure report: mvn allure:serve
+-->
+<suite name="AutomationExercise Full Suite" verbose="1" parallel="none" thread-count="1">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!--  Group 1 – User Management (TC1–TC5)                               -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <test name="User Registration Tests">
+        <classes>
+            <class name="tests.UserRegistrationTests"/>
+        </classes>
+    </test>
+
+    <test name="Login and Logout Tests">
+        <classes>
+            <class name="tests.LoginLogoutTests"/>
+        </classes>
+    </test>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!--  Group 2 – Forms & Navigation (TC6, TC7, TC25, TC26)               -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <test name="Contact Us Tests">
+        <classes>
+            <class name="tests.ContactUsTest"/>
+        </classes>
+    </test>
+
+    <test name="Navigation Tests">
+        <classes>
+            <class name="tests.NavigationTests"/>
+        </classes>
+    </test>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!--  Group 3 – Products (TC8, TC9, TC17–TC22)                          -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <test name="Product Tests">
+        <classes>
+            <class name="tests.ProductTests"/>
+        </classes>
+    </test>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!--  Group 4 – Cart & Checkout (TC12–TC16, TC23–TC24)                  -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <test name="Cart and Checkout Tests">
+        <classes>
+            <class name="tests.CartCheckoutTests"/>
+        </classes>
+    </test>
+
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <!--  Group 5 – Subscription (TC10–TC11)                                -->
+    <!-- ═══════════════════════════════════════════════════════════════════ -->
+    <test name="Subscription Tests">
+        <classes>
+            <class name="tests.SubscriptionTests"/>
+        </classes>
+    </test>
+
+</suite>

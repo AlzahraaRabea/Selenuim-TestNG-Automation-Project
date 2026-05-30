@@ -1,0 +1,20 @@
+{
+  "searchProduct": {
+    "keyword": "T-Shirt",
+    "expectedMinResults": 1
+  },
+  "searchProduct2": {
+    "keyword": "jeans",
+    "expectedMinResults": 1
+  },
+  "invalidSearch": {
+    "keyword": "xyzabc12345nonexistent",
+    "expectedMinResults": 0
+  },
+  "subscribeEmail": {
+    "email": "subscribe_auto@mailtest.com"
+  },
+  "invalidSubscribeEmail": {
+    "email": "notavalidemail"
+  }
+}

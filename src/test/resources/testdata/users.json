@@ -1,0 +1,31 @@
+{
+  "validUser": {
+    "name": "Test_User",
+    "email": "testing_user@mailtest.com",
+    "password": "Test@12345",
+    "firstName": "Test",
+    "lastName": "User",
+    "company": "EDGES Academy",
+    "address1": "street 5",
+    "address2": "street 10",
+    "country": "United States",
+    "state": "Florida",
+    "city": "Florida City",
+    "zipcode": "12578",
+    "mobileNumber": "+1-123-123-1234"
+  },
+  "invalidUser": {
+    "email": "invalid@notexist.com",
+    "password": "WrongPassword"
+  },
+  "existingUser": {
+    "email": "fake_email@mailtest.com",
+    "password": "Exist@1234",
+    "name": "AlZahraa Rabea"
+  },
+  "loginUser": {
+    "email": "testlogin_auto@mailtest.com",
+    "password": "Login@1234",
+    "name": "Login Test User"
+  }
+}

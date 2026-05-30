@@ -1,0 +1,13 @@
+{
+  "validCard": {
+    "nameOnCard": "Test Automation User",
+    "cardNumber": "4111111111111111",
+    "cvc": "123",
+    "expiryMonth": "12",
+    "expiryYear": "2027"
+  },
+  "orderDetails": {
+    "description": "Automation test order",
+    "quantity": 1
+  }
+}
